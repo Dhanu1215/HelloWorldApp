@@ -8,7 +8,14 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'hello-world';
   imgUrl="./assets/logo.bridge.jfif"
+  url="https://www.bridgelabz.com"
+
   ngOnInit(): void{
     this.title = "Hello from Bridgelabz...";
+  }
+
+  onClick() {
+    console.log("Save button is clicked!");
+    window.open(this.url, "_blank");
   }
 }
