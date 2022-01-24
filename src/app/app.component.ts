@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hello-world';
-
+  imgUrl="./assets/logo.bridge.jfif"
   ngOnInit(): void{
     this.title = "Hello from Bridgelabz...";
   }
